@@ -1,2 +1,4 @@
-# kylehalo.github.io
-Kyle Awah | Portfolio 2022
+![Kyle Logo](/images/kylelogo.png)
+
+# Kyle Awah | Portfolio 2022
+
