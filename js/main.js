@@ -327,7 +327,11 @@
                 y: -40,
                 opacity: 0
             })
-            .from('#pro_1_lang', {
+            .from('#pro_1_lang_1', {
+                x: 40,
+                opacity: 0
+            })
+            .from('#pro_1_lang_2', {
                 x: 40,
                 opacity: 0
             })
@@ -347,7 +351,11 @@
                 y: -40,
                 opacity: 0
             })
-            .to('#pro_1_lang', {
+            .to('#pro_1_lang_1', {
+                x: -40,
+                opacity: 0
+            })
+            .to('#pro_1_lang_2', {
                 x: -40,
                 opacity: 0
             })
