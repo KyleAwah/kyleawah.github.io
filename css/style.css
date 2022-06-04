@@ -130,7 +130,7 @@ h1 .box {
     padding-top: 30px;
     background-color: #282828;
     color: white;
-    height: 100vh;
+    padding-bottom: 30px;
 }
 
 #call_to_action {
@@ -629,7 +629,7 @@ ul.rb li .timestamp {
 
 .scroll_down_holder {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 #section_6 {
@@ -654,7 +654,7 @@ ul.rb li .timestamp {
 }
 
 .intro_skills_seperate {
-    padding: 10px;
+    padding: 5px;
 }
 
 .skill_card_title {
@@ -1481,7 +1481,7 @@ svg{
     }   
     
     .intro_skills_seperate {
-        padding-top: 0px;
+        padding-top: 10px;
     }
 
     #intro_para {
@@ -1490,6 +1490,7 @@ svg{
 
     #top_section {
         padding: 20px;
+        height: 80vh;
     }
 
     #call_to_action {
@@ -1546,7 +1547,7 @@ svg{
     .intro_skills_holder {
         flex-direction: column;
         padding-top: 0px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
     
     .hide_mobile {

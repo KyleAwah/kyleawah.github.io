@@ -75,10 +75,6 @@
                 y: -40,
                 opacity: 0
             })
-            .from('.custom-shape-divider-bottom-1653743772', {
-                y: -40,
-                opacity: 0
-            })
             .from('.scroll_down', {
                 y: -40,
                 ease: Bounce.easeOut,
