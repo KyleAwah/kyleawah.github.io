@@ -1,4 +1,4 @@
-<img src="/images/browserthumb.png" width="50"/>
+<img src="/images/browserthumb.png" width="150"/>
 
 # Kyle Awah
 ###### Portfolio 2022
