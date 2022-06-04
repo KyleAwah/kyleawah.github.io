@@ -1,4 +1,5 @@
-![Kyle Logo](/images/kylelogo.png)
+![Kyle Logo](/images/browserthumb.png)
 
-# Kyle Awah | Portfolio 2022
+# Kyle Awah
+###### Portfolio 2022
 
