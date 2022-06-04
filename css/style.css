@@ -145,7 +145,6 @@ h1 .box {
 #call_to_action:hover {
     cursor: pointer;
     border: 3px solid transparent;
-    //color: white;
     transition: 300ms;
 }
 
@@ -628,6 +627,7 @@ ul.rb li .timestamp {
 
 .skill_card_title {
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .skill_card_icon {
@@ -693,7 +693,6 @@ ul.rb li .timestamp {
 }
 
 .custom-shape-divider-top-1653743536 {
-    // position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -750,7 +749,6 @@ ul.rb li .timestamp {
 }
 
 .custom-shape-divider-bottom-1653745842 {
-    // position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -973,7 +971,6 @@ svg{
 }
 
 .svg_holder {
-    // position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -987,7 +984,6 @@ svg{
 }
 
 .custom-shape-divider-bottom-1654225203 {
-    //position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -1112,10 +1108,275 @@ svg{
     height: 20%;
 }
 
+#fancy_txt_3 {
+    color: black;
+}
+
+.edu_txt_holder {
+    width: 80vh;
+    text-align: center;
+}
+
+#fancy_txt_4 {
+    color: black;
+}
+
+.mid_6 {
+    height: 20vh;
+    background: linear-gradient(360deg, #e5e5e5 30%, white 80%);
+}
+
+#space {
+    padding-left: 10px;
+}
+
+#footer_logo {
+    height: 70px;
+}
+
+#footer_logo_holder {
+    padding-bottom: 30px;
+}
+
+#fancy_txt_5 {
+    color: black;
+    text-align: center;
+}
+
+.project_center {
+    text-align: center;
+    display: flex;
+}
+
+.full_screen {
+    height: 100vh;
+    margin: auto 0;
+    position: absolute;
+}
+
+.center_hori {
+    width: 200vh;
+    height: 100vh;
+    text-align: center;
+    
+    /* Center vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.flex_holder {
+    display: flex;
+    padding: 250px;
+}
+
+.circle_item {
+    padding: 50px;
+}
 
 
 
-@media only screen and (max-width: 1300px) {
+
+@media only screen and (max-width: 1100px) { 
+    .flex_container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .flex_container_nav {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .flex_right {
+        flex: 0.2;
+    }
+
+    .flex_container_normal {
+        padding: 25px;
+        flex-direction: column;
+    }
+
+    .flex_container_dark {
+        padding: 25px;
+        flex-direction: column;
+    }
+
+    .flex_container_reverse {
+        padding: 0px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex_container_card {
+        padding: 25px;
+        flex-direction: column;
+    }
+   
+    #mobile_back {
+        transform: translate(-20px, -60px) scale(1.3);
+    }
+    
+    .edu_logo {
+        height: 210px;
+    }
+    
+    .edu_txt_holder {
+        width: 40vh;
+    }
+
+    #intro_para {
+        font-size: 14px;
+    }
+
+    #top_section {
+        padding: 20px;
+    }
+
+    .flex_img_holder {
+        flex: 1;
+    }
+    
+    #nav_name {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .icon {
+        height: 30px;
+    }
+    
+    .icon_holder{
+        display: none;
+    }
+    
+    .intro_skills_holder {
+        flex-direction: row;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .hide_mobile {
+        display: none;
+    }
+    
+    .skill_card {
+        padding: 10px;
+    }
+    
+    .person {
+        transform: scale(0.8);
+    }
+    
+    .container{
+        height: 80px;
+    }
+    
+    .flex_model_card {
+        padding: 0px;
+    }
+    
+    .card_txt {
+        font-size: 16px;
+    }
+    
+    .flex_container_reverse_card {
+        width: 90%;
+        flex-direction: row-reverse;
+    }
+    
+    .secondtolast_card {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lang_em {
+        font-size: 80px;
+    }
+    
+    .lang_lbl {
+        font-size: 25px;
+    }
+    
+    .project_title {
+        font-size: 35px;
+    }
+    
+    .project_tech_desc{
+        font-size: 15px;
+    }
+    
+    .center_hori {
+        width: 150vh;
+    }
+    
+    .project_tech_img{
+        height: 35px;
+    }
+    
+    #header_4{
+        font-size: 35px;
+    }
+    
+    #para_4 {
+        font-size: 17px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #section_2 {
+        padding: 20px;
+    }
+    
+    #section_6 {
+        padding: 20px;
+    }
+    
+    model-viewer {
+        height: 400px;
+        width: 400px;
+    }
+    
+    .flex_model {
+        padding-top: 20px;
+    }
+
+    .footer_holder {
+        flex-direction: column;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    
+    #footer_logo {
+        height: 50px;
+    }
+    
+    .footer_icons {
+        height: 40px;
+    }
+    
+    .footer1{
+        padding-bottom: 20px;
+    }
+    
+    .footer_headers {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) { 
     .flex_container {
         width: 90%;
         flex-direction: column;
@@ -1143,6 +1404,7 @@ svg{
     .flex_container_reverse {
         padding: 0px;
         flex-direction: column;
+        width: 100%;
     }
 
     .flex_container_card {
@@ -1150,8 +1412,44 @@ svg{
         flex-direction: column;
     }
 
-    h1 {
+    #fancy_txt {
+        font-size: 18px;
+    }
+    
+    #fancy_txt_2 {
         font-size: 20px;
+    }
+    
+    #fancy_txt_3 {
+        font-size: 18px;
+    }
+    
+    #mobile_back {
+        transform: translate(-80px, -90px) scale(2.0);
+    }
+    
+    .edu_img_holder {
+        flex: 0.5;
+        padding-top: 70px;
+    }
+    .edu_extra_padding_mobile{
+        padding-top: 110px;
+    }
+    
+    .edu_logo {
+        height: 150px;
+    }
+    
+    .edu_txt_holder {
+        width: 40vh;
+    }
+    
+    #fancy_txt_4 {
+        font-size: 18px;
+    }   
+    
+    .intro_skills_seperate {
+        padding-top: 0px;
     }
 
     #intro_para {
@@ -1196,7 +1494,7 @@ svg{
     }
 
     #nav_qual {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .icon {
@@ -1210,7 +1508,7 @@ svg{
     .intro_skills_holder {
         flex-direction: column;
         padding-top: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 5px;
     }
     
     .hide_mobile {
@@ -1223,6 +1521,7 @@ svg{
     
     .skill_card_title {
         font-size: 15px;
+        padding-bottom: 5px;
     }
     
     .skill_card {
@@ -1230,11 +1529,11 @@ svg{
     }
     
     .person {
-        transform: scale(0.8);
+        transform: scale(0.6);
     }
     
     .container{
-        height: 120px;
+        height: 60px;
     }
     
     .scroll_down{
@@ -1246,24 +1545,24 @@ svg{
     }
     
     .card_txt {
-        font-size: 17px;
+        font-size: 16px;
     }
     
     .flex_container_reverse_card {
-        width: 80%;
+        width: 90%;
         flex-direction: column;
     }
     
     .edu_header {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .edu_header_sub{
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .edu_lbl{
-        font-size: 18px;
+        font-size: 17px;
     }
     
     .honors_class{
@@ -1276,11 +1575,19 @@ svg{
     }
     
     .lang_em {
-        font-size: 80px;
+        font-size: 60px;
     }
     
     .lang_lbl {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    
+    .tech_card_img {
+        height: 60px;
+    }
+    
+    .card_img {
+        height: 130px;
     }
     
     .project_holder_holder {
@@ -1289,7 +1596,7 @@ svg{
     
     .project_title {
         padding-top: 20px;
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .project_holder {
@@ -1301,14 +1608,14 @@ svg{
     }
     
     .project_tech_desc{
-        font-size: 17px;
+        font-size: 15px;
         padding-top: 20px;
     }
     
     .header_tech {
-        font-size: 25px;
+        font-size: 20px;
         padding: 10px;
-        text-align: center;
+        padding-bottom: 20px;
     }
     
     .project_tech_img{
@@ -1351,7 +1658,7 @@ svg{
     }
     
     .flex_model {
-        padding-top: 40px;
+        padding-top: 20px;
     }
     
     .tech_card_lbl {
@@ -1364,6 +1671,12 @@ svg{
 
     .footer_holder {
         flex-direction: column;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    
+    #footer_logo {
+        height: 50px;
     }
     
     .footer_icons {
@@ -1378,94 +1691,4 @@ svg{
         font-size: 20px;
     }
 
-}
-#fancy_txt_3 {
-    color: black;
-}
-
-.edu_txt_holder {
-    width: 80vh;
-    text-align: center;
-}
-
-#fancy_txt_4 {
-    color: black;
-}
-
-
-
-.mid_6 {
-    height: 20vh;
-    background: linear-gradient(360deg, #e5e5e5 30%, white 80%);
-}
-
-#space {
-    padding-left: 10px;
-}
-
-#footer_logo {
-    height: 70px;
-}
-
-#footer_logo_holder {
-    padding-bottom: 30px;
-}
-
-#fancy_txt_5 {
-    color: black;
-    text-align: center;
-}
-
-
-
-.project_center {
-    text-align: center;
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-.full_screen {
-    height: 100vh;
-    margin: auto 0;
-    position: absolute;
-}
-
-
-
-.center_hori {
-    width: 200vh;
-    height: 100vh;
-    text-align: center;
-    
-    /* Center vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-
-
-.flex_holder {
-    display: flex;
-    padding: 250px;
-}
-
-.circle_item {
-    padding: 50px;
 }
