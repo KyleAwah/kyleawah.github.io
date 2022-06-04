@@ -136,7 +136,7 @@
                 opacity: 0
             })
             .to('#b_degree_obj', {
-                y: -40,
+                y: 40,
                 opacity: 0
             })
             .to('#b_degree_title', {
@@ -171,7 +171,7 @@
                 opacity: 0
             })
             .to('#fc_cape_obj', {
-                y: -40,
+                y: 40,
                 opacity: 0
             })
             .to('#fc_cape_title', {
@@ -206,7 +206,7 @@
                 opacity: 0
             })
             .to('#fc_cxc_obj', {
-                y: -40,
+                y: 40,
                 opacity: 0
             })
             .to('#fc_cxc_title', {
