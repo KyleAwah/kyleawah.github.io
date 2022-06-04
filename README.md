@@ -1,10 +1,9 @@
 <img src="/images/browserthumb.png" width="150"/>
 
-<h1> 
-Kyle Awah 
-  <span font-size="8px"> (BSc. Hons) </span>
-- Portfolio 2022
-</h1>
+# Kyle Awah (BSc. Hons) - Portfolio 2022 (Code)
+
 <p>
 iOS & FullStack Web Developer from Trinidad 🇹🇹
+<br>
+Contact: kyawah@gmail.com
 </p>
