@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    background-color: white;
+    background-color: #282828;
 }
 
 footer {
@@ -142,7 +142,37 @@ h1 .box {
     background-color: transparent;
 }
 
+#call_to_action_2 {
+    font-size: 18px;
+    padding: 14px;
+    color: black;
+    border-radius: 25px;
+    border: 3px solid black;
+    background-color: transparent;
+}
+
+#call_to_action_3 {
+    font-size: 18px;
+    padding: 14px;
+    color: black;
+    border-radius: 25px;
+    border: 3px solid black;
+    background-color: transparent;
+}
+
 #call_to_action:hover {
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: 300ms;
+}
+
+#call_to_action_2:hover {
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: 300ms;
+}
+
+#call_to_action_3:hover {
     cursor: pointer;
     border: 3px solid transparent;
     transition: 300ms;
@@ -569,6 +599,10 @@ ul.rb li .timestamp {
 }
 
 .icon_mini {
+    height: 15px;
+}
+
+.icon_mini_2 {
     height: 15px;
 }
 
@@ -1154,7 +1188,7 @@ svg{
 }
 
 .center_hori {
-    width: 200vh;
+    width: 100%;
     height: 100vh;
     text-align: center;
     
@@ -1315,7 +1349,7 @@ svg{
     }
     
     .center_hori {
-        width: 150vh;
+        width: 100%;
     }
     
     .project_tech_img{
@@ -1424,12 +1458,12 @@ svg{
     }
     
     #mobile_back {
-        transform: translate(-80px, -90px) scale(2.0);
+        transform: translate(-80px, -140px) scale(2.0);
     }
     
     .edu_img_holder {
         flex: 0.5;
-        padding-top: 70px;
+        padding-top: 120px;
     }
     .edu_extra_padding_mobile{
         padding-top: 110px;
@@ -1463,6 +1497,12 @@ svg{
         font-size: 10px;
         padding: 10px;
     }
+    
+    #call_to_action_2 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
 
     .flex_img_holder {
         flex: 1;
@@ -1582,11 +1622,11 @@ svg{
     }
     
     .tech_card_img {
-        height: 60px;
+        height: 70px;
     }
     
     .card_img {
-        height: 130px;
+        height: 140px;
     }
     
     .project_holder_holder {
@@ -1612,7 +1652,7 @@ svg{
     }
     
     .header_tech {
-        font-size: 20px;
+        font-size: 25px;
         padding: 10px;
         padding-bottom: 20px;
     }
@@ -1625,9 +1665,17 @@ svg{
         height: 10px;
     }
     
+    .icon_mini_2{
+        height: 14px;
+    }
+    
+    .icon_mini_3{
+        height: 15px;
+    }
+    
     #section_4 {
         padding: 20px;
-        height: 50vh;
+        height: 40vh;
     }
     
     #header_4{
@@ -1638,8 +1686,8 @@ svg{
         font-size: 17px;
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 0px;
     }
     
     #section_2 {
@@ -1661,7 +1709,7 @@ svg{
     }
     
     .tech_card_lbl {
-        font-size: 10px;
+        font-size:18px;
     }
     
     h1 .text {
@@ -1691,4 +1739,6 @@ svg{
     }
 
 }
+
+
 
