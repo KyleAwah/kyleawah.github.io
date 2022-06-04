@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    background-color: #282828;
+    background-color: white;
 }
 
 footer {
@@ -589,8 +589,6 @@ ul.rb li .timestamp {
     align-items: center;
 }
 
-.nav_btn_holder {}
-
 .scroll_down {
     height: 50px;
 }
@@ -1149,7 +1147,7 @@ svg{
 }
 
 .full_screen {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin: auto 0;
     position: absolute;
@@ -1438,7 +1436,7 @@ svg{
     }
     
     .edu_logo {
-        height: 150px;
+        height: 160px;
     }
     
     .edu_txt_holder {
@@ -1530,11 +1528,11 @@ svg{
     }
     
     .person {
-        transform: scale(0.6);
+        transform: scale(0.8);
     }
     
     .container{
-        height: 60px;
+        height: 90px;
     }
     
     .scroll_down{
@@ -1650,12 +1648,12 @@ svg{
     
     #section_6 {
         padding: 20px;
-        height: 80vh;
+        height: 62vh;
     }
     
     model-viewer {
-        height: 280px;
-        width: 280px;
+        height: 300px;
+        width: 350px;
     }
     
     .flex_model {
@@ -1693,3 +1691,4 @@ svg{
     }
 
 }
+

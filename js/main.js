@@ -75,10 +75,6 @@
                 y: -40,
                 opacity: 0
             })
-            .from('.custom-shape-divider-bottom-1653743772', {
-                y: 40,
-                opacity: 0
-            })
             .from('.scroll_down', {
                 y: -40,
                 ease: Bounce.easeOut,
@@ -89,7 +85,7 @@
             scrollTrigger: {
                 trigger: '#section_3',
                 start: "bottom bottom",
-                end: "600% bottom",
+                end: "500% bottom",
                 scrub: true,
                 pin: true,
                 toggleActions: "restart pause reverse reverse"
@@ -231,12 +227,10 @@
             })
             .from('#edu_txt_holder_2', {
                 y: -40,
-                duration: 2,
                 opacity: 0
             })
             .to('#edu_txt_holder_2', {
                 y: -40,
-                duration: 2,
                 opacity: 0
             })
             .from('#en_card_holder', {
