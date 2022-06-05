@@ -643,6 +643,86 @@
                 y: -40,
                 opacity: 0
             })
+            .from('#pro_6_title', {
+                y: -40,
+                opacity: 0
+            })
+            .from('#pro_6_lang_1', {
+                x: 40,
+                opacity: 0
+            })
+            .from('#pro_6_img', {
+                y: 40,
+                opacity: 0
+            })
+            .from('#pro_6_desc', {
+                y: -40,
+                opacity: 0
+            })
+            .from('#pro_6_btn', {
+                y: -40,
+                opacity: 0
+            })
+            .to('#pro_6_title', {
+                y: -40,
+                opacity: 0
+            })
+            .to('#pro_6_lang_1', {
+                x: -40,
+                opacity: 0
+            })
+            .to('#pro_6_desc', {
+                y: 40,
+                opacity: 0
+            })
+            .to('#pro_6_btn', {
+                y: 40,
+                opacity: 0
+            })
+            .to('#pro_6_img', {
+                y: -40,
+                opacity: 0
+            })
+            .from('#pro_7_title', {
+                y: -40,
+                opacity: 0
+            })
+            .from('#pro_7_lang_1', {
+                x: 40,
+                opacity: 0
+            })
+            .from('#pro_7_img', {
+                y: 40,
+                opacity: 0
+            })
+            .from('#pro_7_desc', {
+                y: -40,
+                opacity: 0
+            })
+            .from('#pro_7_btn', {
+                y: -40,
+                opacity: 0
+            })
+            .to('#pro_7_title', {
+                y: -40,
+                opacity: 0
+            })
+            .to('#pro_7_lang_1', {
+                x: -40,
+                opacity: 0
+            })
+            .to('#pro_7_desc', {
+                y: 40,
+                opacity: 0
+            })
+            .to('#pro_7_btn', {
+                y: 40,
+                opacity: 0
+            })
+            .to('#pro_7_img', {
+                y: -40,
+                opacity: 0
+            })
             .to('.project_back', {
                 y: 40,
                 stagger: 0.2,
