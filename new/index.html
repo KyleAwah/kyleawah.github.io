@@ -20,7 +20,7 @@
     <script src="js/mobile_menu.js"></script>
 
     <div class="wrapper">
-        <div class="loading_screen_holder">
+        <div class="loading_screen_holder hidden">
             <div class="loading_screen">
                 <div class="flex_1">
                     <div class="img_wrapper">
@@ -73,21 +73,26 @@
                         <span class="nav_small_txt"> (BSc. Hons)</span>
                     </h1>
                     <p class="nav_para">
-                        iOS & FullStack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
+                        iOS & Fullstack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
                     </p>
                     <div class="btn_holder">
-                        <div onclick="location.reload()" class="nav_btns">
-                            RESTART
-                        </div>
+                        <a class="nav_btns resume_btn" href="resume/Kyle_Awah_Resume.pdf" download="Kyle_Awah_Resume.pdf">
+                            <image class="btn_icons" src="images/dl.png"></image>
+                            RESUME
+                        </a>
                         <div class="nav_btns_2"></div>
-                        <div class="nav_btns">
-                            CREDITS
+                        <div onclick="location.reload()" class="nav_btns restart_btn">
+                            <image class="btn_icons" src="images/restart.png"></image>
+                            RESTART
                         </div>
                     </div>
                     <div>
-                        <image class="nav_icons" src="images/mail.png"></image>
-                        <image class="nav_icons" src="images/linkedin.png"></image>
-                        <image class="nav_icons" src="images/github.png"></image>
+                        <image onclick="window.open('https://github.com/kyleAwah/')" class="nav_icons" src="images/github.png"></image>
+                        <image onclick="window.open('https://www.linkedin.com/in/kyleawah/')" class="nav_icons" src="images/linkedin.png"></image>
+                        <a href="mailto:kyawah@gmail.com">
+                        <image class="nav_icons before_credits_icon" src="images/mail.png"></image>
+                        </a>
+                        <image onclick="alert('hi!')" class="nav_icons credits_icon" src="images/credits.png"></image>
                     </div>
                     <div class="footer_para">
                         Crafted with 
@@ -111,8 +116,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
 
-    <!-- GSAP Animations & SwiperJS Objects -->
+    <!-- GSAP Animations & SwiperJS Objects --
     <script src="js/main.js"></script>
+    -->
 </body>
 
 </html>
