@@ -25,7 +25,6 @@ loading
     .from('.small_txt', {
         opacity: 0
     })
-
     .to('.name', {
         opacity: 0
     })
@@ -33,8 +32,6 @@ loading
         opacity: 0
     })
     .to('.skill_txt', {
-        y: 20,
-        stagger: 0.2,
         opacity: 0
     })
     .to('.skill_img', {
