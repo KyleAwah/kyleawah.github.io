@@ -5,10 +5,6 @@ var loading = gsap.timeline({
 })
 
 loading
-    .from('#kyle', 1, {drawSVG: 0})
-    .from('#awah', 1, {drawSVG: 0})
-
-
     .from('.name', {
         opacity: 0
     })

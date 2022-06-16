@@ -59,7 +59,7 @@ model-viewer {
 }
 
 .name {
-    font-size: 150px;
+    font-size: 145px;
     font-family: 'Yellowtail', cursive;
 }
 
@@ -134,6 +134,7 @@ model-viewer {
     right: 0;
     top: 0;
     padding: 50px;
+    padding-left: 60px;
 }
 
 .nav_icons {
@@ -294,12 +295,13 @@ model-viewer {
   width: 50px;
   height: 20px;
   position: relative;
-  margin: 20px auto;
+  margin: 25px auto;
   cursor: pointer;
   position: absolute;
   top: 0;
-  right: 20px;
+  right: 25px;
   background-color: transparent;
+  transform: scale(0.9);
 }
 
 #hamburger:hover span:nth-child(1) {
