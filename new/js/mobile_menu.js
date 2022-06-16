@@ -8,3 +8,7 @@ function change_look() {
     }
     nav_btn.classList.toggle("open");
 }
+
+function credit(){
+    alert('Kyle Awah: Concept, UI Design & Frontend Development Kyle Awah: 3D Assets (Rendered in Blender) Raphael Frei: Earth Asset ');
+}
