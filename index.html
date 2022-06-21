@@ -19,7 +19,10 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/mobile_menu.js"></script>
 
+
     <div class="wrapper">
+
+        <!-- Loading Screen -->
         <div class="loading_screen_holder">
             <div class="loading_screen">
                 <div class="flex_1">
@@ -27,7 +30,7 @@
                         <div class="img_items">
                             <image class="main_img" src="images/transparentme.png"></image>
                         </div>
-                    
+
                         <h1 class="name">
                             Kyle
                             <span class="space"></span>
@@ -56,6 +59,7 @@
                 </div>
             </div>
         </div>
+        <!-- Loading Screen End -->
 
         <div class="reload_holder">
             <div onclick="change_look()" id="hamburger">
@@ -65,6 +69,7 @@
             </div>
         </div>
 
+        <!-- Sidebar Nav -->
         <div id="nav_side_holder" class="nav_side_holder">
             <div class="nav">
                 <div>
@@ -90,12 +95,12 @@
                         <image onclick="window.open('https://github.com/kyleAwah/')" class="nav_icons" src="images/github.png"></image>
                         <image onclick="window.open('https://www.linkedin.com/in/kyleawah/')" class="nav_icons" src="images/linkedin.png"></image>
                         <a href="mailto:kyawah@gmail.com">
-                        <image class="nav_icons before_credits_icon" src="images/mail.png"></image>
+                            <image class="nav_icons before_credits_icon" src="images/mail.png"></image>
                         </a>
                         <image onclick="credit()" class="nav_icons credits_icon" src="images/credits.png"></image>
                     </div>
                     <div class="footer_para">
-                        Crafted with 
+                        Crafted with
                         <span class="line_through">love ❤️</span> a keyboard ⌨️
                         <br>
                         2022
@@ -103,10 +108,35 @@
                 </div>
             </div>
         </div>
+        <!-- Sidebar Nav End -->
 
-        <div class="main_screen_holder">
+        <div class="main_screen_holder hidden">
             <model-viewer id="island_view" src="models/city.glb" camera-controls enable-pan> </model-viewer>
         </div>
+
+        <!-- Maintainance Page -->
+        <div class="main_screen_holder">
+            <div class="vert_center">
+                <div>
+                    <h1 class="name_2"> Kyle Awah </h1>
+                    <div class="maintanance_pannel">
+                        <h1 class="maintain_logo"> MAINTENANCE </h1>
+                        <p class="maintain_para">
+                            Hey there thanks for visiting my website!
+                            <br><br>
+                            It looks like something's broken on the backend so we're currently under maintenance. This should only take a few hours to resolve. If you would like, you can view my previous software developer portfolio during this time.
+                        </p>
+                        <br><br>
+                        <button onclick="window.open('https://kyleawah.github.io/old')" class="nav_btns maintain_btn">
+                            <image class="btn_icons" src="images/link.png"></image>
+                            VIEW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Maintainance Page End -->
+
     </div>
 
     <!-- GSAP Scripts -->
@@ -118,6 +148,4 @@
 
     <!-- GSAP Animations & SwiperJS Objects -->
     <script src="js/main.js"></script>
-</body>
-
-</html>
+</body></html>

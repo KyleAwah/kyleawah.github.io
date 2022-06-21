@@ -46,6 +46,10 @@ loading
         opacity: 0,
         display: "none"
     })
+    .from('.vert_center', {
+        y: -40,
+        opacity: 0
+    })
     .from('.reload_holder', {
         y: -20,
         opacity: 0
