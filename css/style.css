@@ -166,11 +166,13 @@ model-viewer {
 
 .nav_name {
     font-size: 40px;
-    padding-top: 60px;
+    font-family: 'Yellowtail', cursive;
 }
 
 .nav_small_txt {
     font-size: 12px;
+    padding-top: 35px;
+    padding-left: 12px;
 }
 
 .nav_side_holder {
@@ -203,6 +205,7 @@ model-viewer {
 .nav_para {
     line-height: 1;
     padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 
@@ -427,11 +430,12 @@ a {
     }
 
     .nav_name {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .nav_small_txt {
         font-size: 10px;
+        padding-top: 35px;
     }
 
     .nav_icons {
@@ -488,4 +492,9 @@ a {
 
 .maintanance_pannel {
     text-align: left;
+}
+
+.nav_name_holder {
+    padding-top: 60px;
+    display: flex;
 }
