@@ -10,5 +10,6 @@ function change_look() {
 }
 
 function credit(){
-    alert('Kyle Awah: Concept, UI Design & Frontend Development Kyle Awah: 3D Assets (Rendered in Blender) Raphael Frei: Earth Asset ');
+    alert('CREDITS\n\nKyle Awah: Concept, UI Design & Frontend Development\nKyle Awah: Asset Render (Rendered in Blender)\n\nAlessandro Diamanti (SketchFab): City Asset\nICONS8: Icons');
+    /* City Asset by Alessandro Diamanti (SketchFab): https://sketchfab.com/3d-models/low-poly-city-41697300a4c643d089784b8688b2ed2c */
 }
