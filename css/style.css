@@ -388,6 +388,70 @@ a {
     color: inherit;
 }
 
+.vert_center {
+    background-color: #e5e5e5;
+    padding: 30px;
+    height: 100vh;
+    /* Center vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.maintain_btn {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.maintain_logo {
+    font-size: 40px;
+}
+
+.maintain_para {
+    font-size: 18px;
+}
+
+.maintanance_pannel {
+    text-align: left;
+}
+
+.nav_name_holder {
+    padding-top: 60px;
+    display: flex;
+}
+
+.view-button {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    font-family: Futura, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    max-width: 128px;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    transform: translate3d(-50%, -50%, 0);
+}
+
 
 @media only screen and (max-width: 1300px) {
     .nav_side_holder {
@@ -403,7 +467,7 @@ a {
     .name {
         font-size: 70px;
     }
-    
+
     .name_2 {
         font-size: 70px;
     }
@@ -450,51 +514,4 @@ a {
         padding: 30px;
     }
 
-}
-.vert_center {
-    background-color: #e5e5e5;
-    padding: 30px;
-    height: 100vh;
-    /* Center vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    text-align: center;
-}
-
-.maintain_btn {
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border: 2px solid rgba(255, 255, 255, 0.18);
-}
-
-
-
-.maintain_logo {
-    font-size: 40px;
-}
-
-.maintain_para {
-    font-size: 18px;
-}
-
-.maintanance_pannel {
-    text-align: left;
-}
-
-.nav_name_holder {
-    padding-top: 60px;
-    display: flex;
 }
