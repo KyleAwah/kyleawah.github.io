@@ -247,7 +247,7 @@ model-viewer {
 
 .btn_holder {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .nav_btns_2 {
@@ -566,7 +566,7 @@ a {
 }
 
 .nav_ctrl_list {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     display: flex;
 }
 

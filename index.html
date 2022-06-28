@@ -91,15 +91,15 @@
                     </div>
                     <div class="nav_ctrl_list">
                         <div class="nav_ctrl">
-                            <image class="nav_icons" src="images/linkedin.png"></image>
+                            <image class="nav_icons" src="images/leftclick.png"></image>
                             <h2 class="ctrl_name">ROTATE</h2>
                         </div>
                         <div class="nav_ctrl">
-                            <image class="nav_icons" src="images/linkedin.png"></image>
+                            <image class="nav_icons" src="images/rightclick.png"></image>
                             <h2 class="ctrl_name">PAN</h2>
                         </div>
                         <div class="nav_ctrl">
-                            <image class="nav_icons" src="images/linkedin.png"></image>
+                            <image class="nav_icons" src="images/scroll.png"></image>
                             <h2 class="ctrl_name">ZOOM</h2>
                         </div>
                     </div>
@@ -124,19 +124,25 @@
 
         <div class="main_screen_holder hidden">
             <!-- City Asset by Alessandro Diamanti (SketchFab): https://sketchfab.com/3d-models/low-poly-city-41697300a4c643d089784b8688b2ed2c -->
-            <model-viewer id="city_view" src="models/city.glb" camera-orbit="-50deg 70deg" camera-controls enable-pan>
-                <button class="view-button" slot="hotspot-0" data-position="-25m 5m -30m" data-orbit="-25m 5m -30m" data-target="0m 0m 0m">
+            <model-viewer id="city_view" src="models/city.glb" camera-orbit="-50deg 70deg" camera-controls enable-pan max-camera-orbit="auto 90deg auto">
+                <button class="view-button" slot="hotspot-0" 
+                   data-position="-25m 5m -30m" 
+                   data-orbit="0m 0m 0m" 
+                   data-target="-25m 0.1m -30m">
                     ABOUT ME
-                    <div class="item_div hidden">
+                    <div id="item_div_0" class="item_div hidden">
                         <image id="about_me_img" src="images/transparentme.png"></image>
                         <p id="about_me_para">
                             Hey i'm kyle! iOS & Fullstack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
                         </p>
                     </div>
                 </button>
-                <button class="view-button" slot="hotspot-1" data-position="52m 15m -38m" data-orbit="52m 15m -38m" data-target="0m 0m 0m">
+                <button class="view-button" slot="hotspot-1" 
+                   data-position="52m 15m -38m" 
+                   data-orbit="52m 15m -38m" 
+                   data-target="52m 15m -38m">
                     EDUCATION
-                    <div class="item_div hidden">
+                    <div id="item_div_1" class="item_div hidden">
                         <div id="swiper1" class="swiper1 swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -152,9 +158,12 @@
                         </div>
                     </div>
                 </button>
-                <button class="view-button" slot="hotspot-2" data-position="20m 30m -80m" data-orbit="20m 30m -80m" data-target="0m 0m 0m">
+                <button class="view-button" slot="hotspot-2"
+                    data-position="20m 30m -80m" 
+                    data-orbit="20m 30m -80m" 
+                    data-target="20m 30m -80m">
                     CERTIFICATES
-                    <div class="item_div hidden">
+                    <div id="item_div_2" class="item_div hidden">
                         <div id="swiper2" class="swiper2 swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -221,9 +230,12 @@
                         </div>
                     </div>
                 </button>
-                <button class="view-button" slot="hotspot-3" data-position="75m 8m -60m" data-orbit="75m 8m -60m" data-target="0m 0m 0m">
+                <button class="view-button" slot="hotspot-3"
+                    data-position="75m 8m -60m" 
+                    data-orbit="75m 8m -60m" 
+                    data-target="75m 8m -60m">
                     PROJECTS
-                    <div class="item_div hidden">
+                    <div id="item_div_3" class="item_div hidden">
                         <div id="swiper3" class="swiper3 swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -251,9 +263,12 @@
                         </div>
                     </div>
                 </button>
-                <button class="view-button" slot="hotspot-4" data-position="25m 5m -16m" data-orbit="25m 5m -16m" data-target="0m 0m 0m">
+                <button class="view-button" slot="hotspot-4" 
+                   data-position="25m 5m -16m" 
+                   data-orbit="25m 5m -16m" 
+                   data-target="25m 2m -16m">
                     JOBS
-                    <div class="item_div hidden">
+                    <div id="item_div_4" class="item_div hidden">
                         <div id="swiper4" class="swiper4 swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -294,20 +309,6 @@
         <!-- Maintainance Page End -->
     </div>
 
-
-    <script type="module">
-        const cameraOrbit = modelViewer.getCameraOrbit();
-
-        alert(cameraOrbit.phi);
-
-        // Note that `cameraOrbit` is an object that looks like:
-        {
-            theta: /* number in radians */ ,
-            phi: /* number in radians */ ,
-            radius: /* number in meters */
-        }
-    </script>
-
     <!-- model-viewer change camera angle script -->
     <script type="module">
         const modelViewer1 = document.querySelector("#city_view");
@@ -333,5 +334,4 @@
 
     <!-- GSAP Animations & SwiperJS Objects -->
     <script src="js/main.js"></script>
-    -->
 </body></html>
