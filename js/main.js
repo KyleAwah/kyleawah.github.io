@@ -1,3 +1,60 @@
+var swiper1 = new Swiper('.swiper1', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loopFillGroupWithBlank: true,
+    freeMode: true,
+    speed: 900,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        reverseDirection: true,
+    },
+});
+
+var swiper2 = new Swiper('.swiper2', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loopFillGroupWithBlank: true,
+    freeMode: true,
+    speed: 900,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        reverseDirection: true,
+    },
+});
+
+var swiper3 = new Swiper('.swiper3', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loopFillGroupWithBlank: true,
+    freeMode: true,
+    speed: 900,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        reverseDirection: true,
+    },
+});
+
+var swiper4 = new Swiper('.swiper4', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    slidesPerGroup: 1,
+    loopFillGroupWithBlank: true,
+    freeMode: true,
+    speed: 900,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        reverseDirection: true,
+    },
+});
+
+
 var loading = gsap.timeline({
     defaults: {
         duration: 0.8
