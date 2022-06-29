@@ -50,15 +50,16 @@
                         </div>
 
                         <div class="skill_card flex_1">
-                            <image class="skill_img" src="images/ui.png"></image>
-                            <h1 class="skill_txt"> UI/UX </h1>
+                            <image class="skill_img" src="images/arvr.png"></image>
+                            <h1 class="skill_txt"> AR / VR </h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Loading Screen End -->
+        <!-- Loading Screen -->
 
+        <!-- Nav Btn -->
         <div class="reload_holder">
             <div onclick="change_look()" id="hamburger">
                 <span></span>
@@ -66,6 +67,7 @@
                 <span></span>
             </div>
         </div>
+        <!-- Nav Btn -->
 
         <!-- Sidebar Nav -->
         <div id="nav_side_holder" class="nav_side_holder">
@@ -89,17 +91,31 @@
                             RESTART
                         </div>
                     </div>
-                    <div class="nav_ctrl_list">
+                    <div class="nav_ctrl_list hide_mobile">
                         <div class="nav_ctrl">
-                            <image class="nav_icons" src="images/leftclick.png"></image>
+                            <image class="ctrl_icons" src="images/leftclick.png"></image>
                             <h2 class="ctrl_name">ROTATE</h2>
                         </div>
                         <div class="nav_ctrl">
-                            <image class="nav_icons" src="images/rightclick.png"></image>
+                            <image class="ctrl_icons" src="images/rightclick.png"></image>
                             <h2 class="ctrl_name">PAN</h2>
                         </div>
                         <div class="nav_ctrl">
-                            <image class="nav_icons" src="images/scroll.png"></image>
+                            <image class="ctrl_icons" src="images/scroll.png"></image>
+                            <h2 class="ctrl_name">ZOOM</h2>
+                        </div>
+                    </div>
+                    <div class="nav_ctrl_list hide_desktop">
+                        <div class="nav_ctrl">
+                            <image class="ctrl_icons" src="images/mobile_swipe.png"></image>
+                            <h2 class="ctrl_name">ROTATE</h2>
+                        </div>
+                        <div class="nav_ctrl">
+                            <image class="ctrl_icons" src="images/mobile_pan.png"></image>
+                            <h2 class="ctrl_name">PAN</h2>
+                        </div>
+                        <div class="nav_ctrl">
+                            <image class="ctrl_icons" src="images/mobile_pinch.png"></image>
                             <h2 class="ctrl_name">ZOOM</h2>
                         </div>
                     </div>
@@ -120,167 +136,173 @@
                 </div>
             </div>
         </div>
-        <!-- Sidebar Nav End -->
+        <!-- Sidebar Nav -->
+
+        <!-- Bottom Nav -->
+        <div id="nav_bot_holder" class="nav_bot_holder hidden">
+            <div class="nav_bot">
+                <div id="item_div_0" class="hidden">
+                    <h2 class="nav_bot_title">ABOUT ME</h2>
+                    <image id="about_me_img" src="images/transparentme.png"></image>
+                    <p id="about_me_para">
+                        Hey i'm kyle! iOS & Fullstack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
+                    </p>
+                </div>
+
+                <div id="item_div_1" class="hidden">
+                    <h2 class="nav_bot_title">EDUCATION</h2>
+                    <div id="swiper1" class="swiper1 swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/uwilogo.png"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/fatimalogo.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/fatimalogo.jpg"></image>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="item_div_2" class="hidden">
+                    <h2 class="nav_bot_title">CERTIFICATES</h2>
+                    <div id="swiper2" class="swiper2 swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/GoogleAnalyticsAdvanced.jpg"></image>
+                            </div>
+                            <!--
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/IBMAgile.jpg"></image>
+                            </div>
+                            -->
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/GoogleAnalyticsBeginner.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/BitDegreePolygonDapps.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/BitDegreeWebBeginner.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/KaggleDataVisualization.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/KaggleDeepLearning.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/HPEffectiveWebsites.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/UnitedNationsEmergencyTelecommunicationsTraining.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/GoogleDigitalMarketing.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/HubSpotGrowthDrivenDesign.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/BitDegreeBrackets.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/HPITBuisnessSucess.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/KagglePython.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/HubSpotSEO.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/CDCSocialMediaMarketing.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/LinkedinSoftwareDev.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/OpenUniSoftwareForEnterprise.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/OpenUniUI.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/UnitedNationsWebAccessibility.jpg"></image>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="item_div_3" class="hidden-">
+                    <h2 class="nav_bot_title">PROJECTS</h2>
+                    <div id="swiper3" class="swiper3 swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/pro_cal.png"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/pro_compile.png"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/pro_oneshop.png"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/pro_pixel.png"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/pro_python.png"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/pro_streetware.png"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/pro_vegout.png"></image>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="item_div_4" class="hidden">
+                    <h2 class="nav_bot_title">JOBS</h2>
+                    <div id="swiper4" class="swiper4 swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/GoogleAnalyticsAdvanced.jpg"></image>
+                            </div>
+                            <div class="swiper-slide">
+                                <image class="card_img" src="images/IBMAgile.jpg"></image>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Bottom Nav -->
 
         <div class="main_screen_holder hidden">
             <!-- City Asset by Alessandro Diamanti (SketchFab): https://sketchfab.com/3d-models/low-poly-city-41697300a4c643d089784b8688b2ed2c -->
-            <model-viewer id="city_view" src="models/city.glb" camera-orbit="-50deg 70deg" camera-controls enable-pan max-camera-orbit="auto 90deg auto">
-                <button class="view-button" slot="hotspot-0" 
-                   data-position="-25m 5m -30m" 
-                   data-orbit="0m 0m 0m" 
-                   data-target="-25m 0.1m -30m">
+            <model-viewer id="city_view" src="models/ity.glb" camera-orbit="-50deg 70deg" camera-controls enable-pan max-camera-orbit="auto 90deg auto">
+                <button class="view-button" slot="hotspot-0" data-position="-25m 5m -30m" data-orbit="0m 0m 0m" data-target="-25m 0.1m -30m">
                     ABOUT ME
-                    <div id="item_div_0" class="item_div hidden">
-                        <image id="about_me_img" src="images/transparentme.png"></image>
-                        <p id="about_me_para">
-                            Hey i'm kyle! iOS & Fullstack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
-                        </p>
-                    </div>
                 </button>
-                <button class="view-button" slot="hotspot-1" 
-                   data-position="52m 15m -38m" 
-                   data-orbit="52m 15m -38m" 
-                   data-target="52m 15m -38m">
+                <button class="view-button" slot="hotspot-1" data-position="52m 15m -38m" data-orbit="52m 15m -38m" data-target="52m 15m -38m">
                     EDUCATION
-                    <div id="item_div_1" class="item_div hidden">
-                        <div id="swiper1" class="swiper1 swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/uwilogo.png"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/fatimalogo.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/fatimalogo.jpg"></image>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </button>
-                <button class="view-button" slot="hotspot-2"
-                    data-position="20m 30m -80m" 
-                    data-orbit="20m 30m -80m" 
-                    data-target="20m 30m -80m">
+                <button class="view-button" slot="hotspot-2" data-position="20m 30m -80m" data-orbit="20m 30m -80m" data-target="20m 30m -80m">
                     CERTIFICATES
-                    <div id="item_div_2" class="item_div hidden">
-                        <div id="swiper2" class="swiper2 swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/GoogleAnalyticsAdvanced.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/IBMAgile.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/GoogleAnalyticsBeginner.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/BitDegreePolygonDapps.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/BitDegreeWebBeginner.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/KaggleDataVisualization.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/KaggleDeepLearning.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/HPEffectiveWebsites.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/UnitedNationsEmergencyTelecommunicationsTraining.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/GoogleDigitalMarketing.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/HubSpotGrowthDrivenDesign.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/BitDegreeBrackets.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/HPITBuisnessSucess.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/KagglePython.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/HubSpotSEO.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/CDCSocialMediaMarketing.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/LinkedinSoftwareDev.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/OpenUniSoftwareForEnterprise.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/OpenUniUI.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/UnitedNationsWebAccessibility.jpg"></image>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </button>
-                <button class="view-button" slot="hotspot-3"
-                    data-position="75m 8m -60m" 
-                    data-orbit="75m 8m -60m" 
-                    data-target="75m 8m -60m">
+                <button class="view-button" slot="hotspot-3" data-position="75m 8m -60m" data-orbit="75m 8m -60m" data-target="75m 8m -60m">
                     PROJECTS
-                    <div id="item_div_3" class="item_div hidden">
-                        <div id="swiper3" class="swiper3 swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/pro_cal.png"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/pro_compile.png"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/pro_oneshop.png"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/pro_pixel.png"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/pro_python.png"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/pro_streetware.png"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/pro_vegout.png"></image>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </button>
-                <button class="view-button" slot="hotspot-4" 
-                   data-position="25m 5m -16m" 
-                   data-orbit="25m 5m -16m" 
-                   data-target="25m 2m -16m">
+                <button class="view-button" slot="hotspot-4" data-position="25m 5m -16m" data-orbit="25m 5m -16m" data-target="25m 2m -16m">
                     JOBS
-                    <div id="item_div_4" class="item_div hidden">
-                        <div id="swiper4" class="swiper4 swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/GoogleAnalyticsAdvanced.jpg"></image>
-                                </div>
-                                <div class="swiper-slide">
-                                    <image class="card_img" src="images/IBMAgile.jpg"></image>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
                 </button>
             </model-viewer>
         </div>
@@ -293,7 +315,7 @@
                     <div class="maintanance_pannel">
                         <h1 class="maintain_logo"> MAINTENANCE </h1>
                         <p class="maintain_para">
-                            Hey there thanks for visiting my website!
+                            Hey! Thanks for visiting my website.
                             <br><br>
                             We're currently under maintenance, this should only take a few hours to resolve. If you would like, you can view my previous software developer portfolio during this time.
                         </p>
@@ -306,7 +328,7 @@
                 </div>
             </div>
         </div>
-        <!-- Maintainance Page End -->
+        <!-- Maintainance Page -->
     </div>
 
     <!-- model-viewer change camera angle script -->
@@ -334,4 +356,5 @@
 
     <!-- GSAP Animations & SwiperJS Objects -->
     <script src="js/main.js"></script>
+    
 </body></html>
