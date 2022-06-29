@@ -5,11 +5,11 @@ var swiper1 = new Swiper('.swiper1', {
     loopFillGroupWithBlank: true,
     freeMode: true,
     speed: 900,
-    /*autoplay: {
+    autoplay: {
         delay: 4000,
         disableOnInteraction: false,
         reverseDirection: true,
-    },*/
+    },
 });
 
 var swiper2 = new Swiper('.swiper2', {
@@ -19,11 +19,11 @@ var swiper2 = new Swiper('.swiper2', {
     loopFillGroupWithBlank: true,
     freeMode: true,
     speed: 900,
-    /*autoplay: {
+    autoplay: {
         delay: 2000,
         disableOnInteraction: false,
         reverseDirection: true,
-    },*/
+    },
     breakpoints: {
         1100: {
             slidesPerView: 3,
@@ -43,11 +43,11 @@ var swiper3 = new Swiper('.swiper3', {
     loopFillGroupWithBlank: true,
     freeMode: true,
     speed: 900,
-    /*autoplay: {
+    autoplay: {
         delay: 4000,
         disableOnInteraction: false,
         reverseDirection: true,
-    }*/
+    }
 });
 
 var swiper4 = new Swiper('.swiper4', {
@@ -57,11 +57,11 @@ var swiper4 = new Swiper('.swiper4', {
     loopFillGroupWithBlank: true,
     freeMode: true,
     speed: 900,
-    /*autoplay: {
+    autoplay: {
         delay: 4000,
         disableOnInteraction: false,
         reverseDirection: true,
-    }*/
+    }
 });
 
 

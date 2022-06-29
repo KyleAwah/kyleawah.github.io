@@ -21,7 +21,7 @@
 
     <div class="wrapper">
         <!-- Loading Screen -->
-        <div class="loading_screen_holder">
+        <div class="loading_screen_holder hidden">
             <div class="loading_screen">
                 <div class="flex_1">
                     <div class="img_wrapper">
@@ -138,46 +138,105 @@
         </div>
         <!-- Sidebar Nav -->
 
-        <!-- Bottom Nav -->
-        <div id="nav_bot_holder" class="nav_bot_holder hidden">
+        <!-- Bottom Navs -->
+        <div id="item_div_0" class="nav_bot_holder">
             <div class="nav_bot">
-                <div id="item_div_0" class="hidden">
+                <div>
                     <h2 class="nav_bot_title">ABOUT ME</h2>
-                    <image id="about_me_img" src="images/transparentme.png"></image>
-                    <p id="about_me_para">
-                        Hey i'm kyle! iOS & Fullstack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
-                    </p>
+                    <div onclick="change_look_0()" id="hamburger_0" class="hamburger_bot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="project_holder">
+                        <div class="project_img">
+                            <image class="card_img card_me" src="images/transparentme.png"></image>
+                        </div>
+                        <div class="flex_1">
+                            <h2 class="project_title">Kyle Awah</h2>
+                            <p class="project_title_sub"> EN 🇹🇹󠁧󠁢󠁥󠁮 / FR 🇫🇷</p>
+                            <p class="project_para">
+                                Hey i'm kyle! iOS & Fullstack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-
-                <div id="item_div_1" class="hidden">
+            </div>
+        </div>
+        <div id="item_div_1" class="nav_bot_holder">
+            <div class="nav_bot">
+                <div>
                     <h2 class="nav_bot_title">EDUCATION</h2>
+                    <div onclick="change_look_1()" id="hamburger_1" class="hamburger_bot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <div id="swiper1" class="swiper1 swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/uwilogo.png"></image>
+                                <div class="project_holder">
+                                    <div class="project_img">
+                                        <image class="card_img" src="images/uwilogo.png"></image>
+                                    </div>
+                                    <div class="flex_1">
+                                        <h2 class="edu_title project_title">Bachelor of Science (BSc. Hons)</h2>
+                                        <p class="project_title_sub">University of the West Indies St. Augustine Campus (2018 - 2022)</p>
+                                        <p class="project_para">
+                                            Major: Information Technology, Minor: Managment of Information Systems
+                                        </p>
+                                        <div class="pill"> UPPER SECOND CLASS HONORS </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/fatimalogo.jpg"></image>
+                                <div class="project_holder">
+                                    <div class="project_img">
+                                        <image class="card_img" src="images/fatimalogo.jpg"></image>
+                                    </div>
+                                    <div class="flex_1">
+                                        <h2 class="edu_title project_title">Caribbean Advanced Proficiency Examination (CAPE)</h2>
+                                        <p class="project_title_sub">Fatima College St. James, Port-of-Spain (2015 - 2017) </p>
+                                        <p class="project_para">
+                                            Caribbean Studies, Communication Studies, Computer Science & Management of Business (MOB)
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/fatimalogo.jpg"></image>
+                                <div class="project_holder">
+                                    <div class="project_img">
+                                        <image class="card_img" src="images/fatimalogo.jpg"></image>
+                                    </div>
+                                    <div class="flex_1">
+                                        <h2 class="edu_title project_title">Caribbean Secondary Education Certificate (CSEC / CXC)</h2>
+                                        <p class="project_title_sub">Fatima College St. James, Port-of-Spain (2015 - 2017) </p>
+                                        <p class="project_para">
+                                            Mathematics, English A, English B, Information Technology (IT), Principles of Business (POB), Technical Drawing, Physics & French
+                                        </p>
+                                        <div class="pill"> FULL CERTIFICATE </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div id="item_div_2" class="hidden">
+            </div>
+        </div>
+        <div id="item_div_2" class="nav_bot_holder">
+            <div class="nav_bot">
+                <div>
                     <h2 class="nav_bot_title">CERTIFICATES</h2>
+                    <div onclick="change_look_2()" id="hamburger_2" class="hamburger_bot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <div id="swiper2" class="swiper2 swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <image class="card_img" src="images/GoogleAnalyticsAdvanced.jpg"></image>
                             </div>
-                            <!--
-                            <div class="swiper-slide">
-                                <image class="card_img" src="images/IBMAgile.jpg"></image>
-                            </div>
-                            -->
                             <div class="swiper-slide">
                                 <image class="card_img" src="images/GoogleAnalyticsBeginner.jpg"></image>
                             </div>
@@ -235,40 +294,132 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div id="item_div_3" class="hidden-">
+            </div>
+        </div>
+        <div id="item_div_3" class="nav_bot_holder">
+            <div class="nav_bot">
+                <div>
                     <h2 class="nav_bot_title">PROJECTS</h2>
+                    <div onclick="change_look_3()" id="hamburger_3" class="hamburger_bot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <div id="swiper3" class="swiper3 swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/pro_cal.png"></image>
+                                <div class="project_holder">
+                                    <image class="card_img" src="images/pro_cal.png"></image>
+                                    <div class="flex_1">
+                                        <h2 class="project_title">LINKED LIST CALCULATOR</h2>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/c++.png"></image>
+                                        <p class="project_para">
+                                            Calculators are often taken for granted as they are technical marvels in their own right, enabling many of the modern day’s inventions. Within this application I developed a full working calculator incorporating the functionality of linked lists within C++. This program utilises data pointers for increased storage efficiency.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/pro_compile.png"></image>
+                                <div class="project_holder">
+                                    <image class="card_img" src="images/pro_compile.png"></image>
+                                    <div class="flex_1">
+                                        <h2 class="project_title">COMPILE PROJECTS</h2>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/htmllogo.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/css.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/jslogo.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/python.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/flask.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/sqalchemy.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/jinja.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/postgres.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/sqlite.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/poetry.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/gunicorn.png"></image>
+                                        <p class="project_para">
+                                            Compile projects was easily my most complex project spanning multiple programming languages, technologies and frameworks. This full stack REST web server was home to Invoice Maker, Receipt Maker & many more innovate free web applications developed by myself.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/pro_oneshop.png"></image>
+                                <div class="project_holder">
+                                    <image class="card_img" src="images/pro_oneshop.png"></image>
+                                    <div class="flex_1">
+                                        <h2 class="project_title">ONE SHOP</h2>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/figma.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/sketch.png"></image>
+                                        <p class="project_para">
+                                            One shop was another group project developed for my undergraduate degree. Whilst this website was never required to made final production its UI/UX design served as a catalyst for future projects.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/pro_pixel.png"></image>
+                                <div class="project_holder">
+                                    <image class="card_img" src="images/pro_pixel.png"></image>
+                                    <div class="flex_1">
+                                        <h2 class="project_title">PIXEL JOURNEY</h2>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/c++.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/wix.png"></image>
+                                        <p class="project_para">
+                                            Pixel Journey was originally developed as an Internal Assessment in 2015 but later seemed into a full project. Through the utilisation of Wix to develop the website for code redemption and the fully developed game in C by myself, Pixel Journey spawned into a new indie title.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/pro_python.png"></image>
+                                <div class="project_holder">
+                                    <image class="card_img" src="images/pro_python.png"></image>
+                                    <div class="flex_1">
+                                        <h2 class="project_title">RSA ENCRYPTION</h2>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/python.png"></image>
+                                        <p class="project_para">
+                                            RSA encryption is a complex Asymmetric encryption method which protects most of our modern web traffic. Within this application I encapsulated and delivered its functionality in a simple user interface & Python command line.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/pro_streetware.png"></image>
+                                <div class="project_holder">
+                                    <image class="card_img" src="images/pro_streetware.png"></image>
+                                    <div class="flex_1">
+                                        <h2 class="project_title">STRT_WARE</h2>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/htmllogo.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/css.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/jslogo.png"></image>
+                                        <p class="project_para">
+                                            STRT_WARE was a group project for my undergraduate degree. This front-end website encompassed all the necessary technologies to facilitate a custom e-commerce platform for selling clothes.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-slide">
-                                <image class="card_img" src="images/pro_vegout.png"></image>
+                                <div class="project_holder">
+                                    <image class="card_img" src="images/pro_vegout.png"></image>
+                                    <div class="flex_1">
+                                        <h2 class="project_title">VEG OUT</h2>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/wordpress.png"></image>
+                                        <image id="pro_1_lang_1" class="project_tech_img" src="images/php.png"></image>
+                                        <p class="project_para">
+                                            Veg Out’s website redesign was a proposed e-commerce solution for the final year project of my undergraduate degree. This website redesign utilised the Content Management System (CMS), Wordpress in tandem with php to deliver a custom e-buisness platform.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-                <div id="item_div_4" class="hidden">
+            </div>
+        </div>
+        <div id="item_div_4" class="nav_bot_holder">
+            <div class="nav_bot">
+                <div>
                     <h2 class="nav_bot_title">JOBS</h2>
+                    <div onclick="change_look_4()" id="hamburger_4" class="hamburger_bot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <div id="swiper4" class="swiper4 swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -277,38 +428,36 @@
                             <div class="swiper-slide">
                                 <image class="card_img" src="images/IBMAgile.jpg"></image>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- Bottom Nav -->
 
-        <div class="main_screen_holder hidden">
+        <div class="main_screen_holder">
             <!-- City Asset by Alessandro Diamanti (SketchFab): https://sketchfab.com/3d-models/low-poly-city-41697300a4c643d089784b8688b2ed2c -->
-            <model-viewer id="city_view" src="models/ity.glb" camera-orbit="-50deg 70deg" camera-controls enable-pan max-camera-orbit="auto 90deg auto">
-                <button class="view-button" slot="hotspot-0" data-position="-25m 5m -30m" data-orbit="0m 0m 0m" data-target="-25m 0.1m -30m">
+            <model-viewer id="city_view" src="models/city.glb" camera-orbit="-50deg 70deg" camera-controls enable-pan max-camera-orbit="auto 90deg auto">
+                <button onclick="change_look_0()" class="view-button" slot="hotspot-0" data-position="-25m 5m -30m" data-orbit="0m 0m 0m" data-target="-25m 0.1m -30m">
                     ABOUT ME
                 </button>
-                <button class="view-button" slot="hotspot-1" data-position="52m 15m -38m" data-orbit="52m 15m -38m" data-target="52m 15m -38m">
+                <button onclick="change_look_1()" class="view-button" slot="hotspot-1" data-position="52m 15m -38m" data-orbit="52m 15m -38m" data-target="52m 15m -38m">
                     EDUCATION
                 </button>
-                <button class="view-button" slot="hotspot-2" data-position="20m 30m -80m" data-orbit="20m 30m -80m" data-target="20m 30m -80m">
+                <button onclick="change_look_2()" class="view-button" slot="hotspot-2" data-position="20m 30m -80m" data-orbit="20m 30m -80m" data-target="20m 30m -80m">
                     CERTIFICATES
                 </button>
-                <button class="view-button" slot="hotspot-3" data-position="75m 8m -60m" data-orbit="75m 8m -60m" data-target="75m 8m -60m">
+                <button onclick="change_look_3()" class="view-button" slot="hotspot-3" data-position="75m 8m -60m" data-orbit="75m 8m -60m" data-target="75m 8m -60m">
                     PROJECTS
                 </button>
-                <button class="view-button" slot="hotspot-4" data-position="25m 5m -16m" data-orbit="25m 5m -16m" data-target="25m 2m -16m">
+                <button onclick="change_look_4()" class="view-button" slot="hotspot-4" data-position="25m 5m -16m" data-orbit="25m 5m -16m" data-target="25m 2m -16m">
                     JOBS
                 </button>
             </model-viewer>
         </div>
 
         <!-- Maintainance Page -->
-        <div class="main_screen_holder">
+        <div class="main_screen_holder hidden">
             <div class="vert_center">
                 <div>
                     <h1 class="name_2"> Kyle Awah </h1>
@@ -330,6 +479,7 @@
         </div>
         <!-- Maintainance Page -->
     </div>
+        <!-- Bottom Navs -->
 
     <!-- model-viewer change camera angle script -->
     <script type="module">
@@ -356,5 +506,5 @@
 
     <!-- GSAP Animations & SwiperJS Objects -->
     <script src="js/main.js"></script>
-    
+
 </body></html>
