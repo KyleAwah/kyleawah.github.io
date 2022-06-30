@@ -764,6 +764,26 @@ a {
         height: 60vh;
     }
     
+    .nav_bot_0 {
+        height: 40vh;
+    }
+    
+    .nav_bot_1 {
+        height: 50vh;
+    }
+    
+    .nav_bot_2 {
+        height: 30vh;
+    }
+    
+    .nav_bot_3 {
+        height: 50vh;
+    }
+    
+    .nav_bot_4 {
+        height: 20vh;
+    }
+    
     .project_holder {
         flex-direction: column;
     }
@@ -806,4 +826,17 @@ a {
     .hide_mobile {
         display: none;
     }
+}
+
+
+button {
+    color: black;
+}
+
+#maintanance_section {
+    line-height: 1;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    padding-top: 20px;
 }
