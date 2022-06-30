@@ -218,7 +218,9 @@ model-viewer {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.close_btn {}
+.close_btn {
+    width: 50px;
+}
 
 .right {
     text-align: right;
