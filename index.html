@@ -224,7 +224,7 @@
             <div class="nav_bot_2 nav_bot">
                 <div>
                     <div class="top">
-                        <h2 class="nav_bot_title">CERTIFICATION</h2>
+                        <h2 class="nav_bot_title">CERTIFICATES</h2>
                         <image onclick="closeALL()" class="close_image" src="images/close.png"></image>
                     </div>
                     <div id="swiper2" class="swiper2 swiper">
@@ -433,19 +433,29 @@
             <!-- City Asset by Alessandro Diamanti (SketchFab): https://sketchfab.com/3d-models/low-poly-city-41697300a4c643d089784b8688b2ed2c -->
             <model-viewer id="city_view" src="models/city.glb" camera-orbit="-50deg 70deg" camera-controls enable-pan max-camera-orbit="auto 90deg auto">
                 <button onclick="change_look_0()" class="view-button" slot="hotspot-0" data-position="-25m 5m -30m" data-orbit="0m 0m 0m" data-target="-25m 0.1m -30m">
+                    <image class="model_btn_icons" src="images/icon_user.png"></image>
                     ABOUT ME
+                    <image class="model_btn_icons_down" src="images/down.png"></image>
                 </button>
                 <button onclick="change_look_1()" class="view-button" slot="hotspot-1" data-position="52m 15m -38m" data-orbit="52m 15m -38m" data-target="52m 15m -38m">
+                    <image class="model_btn_icons" src="images/icon_cap.png"></image>
                     EDUCATION
+                    <image class="model_btn_icons_down" src="images/down.png"></image>
                 </button>
                 <button onclick="change_look_2()" class="view-button" slot="hotspot-2" data-position="20m 30m -80m" data-orbit="20m 30m -80m" data-target="20m 30m -80m">
+                    <image class="model_btn_icons" src="images/icon_cert.png"></image>
                     CERTIFICATES
+                    <image class="model_btn_icons_down" src="images/down.png"></image>
                 </button>
                 <button onclick="change_look_3()" class="view-button" slot="hotspot-3" data-position="75m 8m -60m" data-orbit="75m 8m -60m" data-target="75m 8m -60m">
+                    <image class="model_btn_icons" src="images/icon_tool.png"></image>
                     PROJECTS
+                    <image class="model_btn_icons_down" src="images/down.png"></image>
                 </button>
                 <button onclick="change_look_4()" class="view-button" slot="hotspot-4" data-position="25m 5m -16m" data-orbit="25m 5m -16m" data-target="25m 2m -16m">
+                    <image class="model_btn_icons" src="images/icon_job.png"></image>
                     JOBS
+                    <image class="model_btn_icons_down" src="images/down.png"></image>
                 </button>
             </model-viewer>
         </div>
@@ -473,7 +483,6 @@
         </div>
         <!-- Maintainance Page -->
     </div>
-        <!-- Bottom Navs -->
 
     <!-- model-viewer change camera angle script -->
     <script type="module">

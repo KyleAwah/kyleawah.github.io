@@ -883,3 +883,12 @@ button {
         display: none;
     }
 }
+.model_btn_icons {
+    height: 12px;
+    padding-right: 5px;
+}
+
+.model_btn_icons_down {
+    height: 10px;
+    transform: rotate(-90deg);
+}
