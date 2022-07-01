@@ -27,56 +27,54 @@ function change_look_0() {
     closeALL();
     var nav_btn = document.getElementById('hamburger_0');
     var nav = document.getElementById('item_div_0');
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
-    } else {
-        nav.style.display = "block";
-    }
+    nav.style.display = "block";
 }
 
 function change_look_1() {
     closeALL();
     var nav_btn = document.getElementById('hamburger_1');
     var nav = document.getElementById('item_div_1');
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
-    } else {
-        nav.style.display = "block";
-    }
+    nav.style.display = "block";
 }
 
 function change_look_2() {
     closeALL();
     var nav_btn = document.getElementById('hamburger_2');
     var nav = document.getElementById('item_div_2');
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
-    } else {
-        nav.style.display = "block";
-    }
+    nav.style.display = "block";
 }
 
 function change_look_3() {
     closeALL();
     var nav_btn = document.getElementById('hamburger_3');
     var nav = document.getElementById('item_div_3');
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
-    } else {
-        nav.style.display = "block";
-    }
+    nav.style.display = "block";
 }
 
 function change_look_4() {
     closeALL();
     var nav_btn = document.getElementById('hamburger_4');
     var nav = document.getElementById('item_div_4');
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
-    } else {
-        nav.style.display = "block";
-    }
+    nav.style.display = "block";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function credit(){
     alert('CREDITS\n\nKyle Awah: Concept, UI Design & Frontend Development\nKyle Awah: Asset Render (Rendered in Blender)\n\nAlessandro Diamanti (SketchFab): City Asset\nICONS8: Icons');

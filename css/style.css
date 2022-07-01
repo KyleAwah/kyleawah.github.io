@@ -527,7 +527,7 @@ a {
 }
 
 .card_img {
-    height: 160px;
+    width: 100%;
 }
 
 .nav_ctrl_list {
@@ -575,6 +575,7 @@ a {
 
 .nav_bot_title {
     line-height: 1;
+    flex: 1;
 }
 
 .project_holder {
@@ -620,7 +621,7 @@ a {
 }
 
 .card_me {
-    clip-path: circle(50%);
+    height: 160px;
 }
 
 #item_div_0 {
@@ -792,6 +793,10 @@ a {
         font-size: 20px;
     }
     
+    .project_tech_img {
+        padding-top: 5px;
+    }
+    
     .project_title_sub {
         font-size: 14px;
     }
@@ -847,4 +852,13 @@ button {
 
 .close_image {
     height: 24px;
+}
+
+.close_image:hover {
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.circle_cut {
+    clip-path: circle(50%);
 }
