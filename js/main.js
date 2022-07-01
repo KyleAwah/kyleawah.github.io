@@ -67,7 +67,7 @@ var swiper4 = new Swiper('.swiper4', {
 
 var loading = gsap.timeline({
     defaults: {
-        duration: 0.8
+        duration: 0.7
     }
 })
 
