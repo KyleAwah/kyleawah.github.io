@@ -13,12 +13,15 @@ function closeALL() {
 
 function change_look() {
     closeALL();
+    var name = document.getElementById('nav_name');
     var nav_btn = document.getElementById('hamburger');
     var nav = document.getElementById('nav_side_holder');
     if (nav.style.display === "block") {
         nav.style.display = "none";
+        name.style.visibility = "visible";
     } else {
         nav.style.display = "block";
+        name.style.visibility = "hidden";
     }
     nav_btn.classList.toggle("open");
 }
