@@ -730,12 +730,31 @@ button {
     flex: 0.9;
 }
 
+.model_btn_icons {
+    height: 12px;
+    padding-right: 5px;
+}
+
+.model_btn_icons_down {
+    height: 12px;
+    transform: rotate(-90deg);
+}
+
+.bottom_nav_icon {
+    height: 18px;
+    padding-right: 10px;
+}
 
 
 @media only screen and (max-width: 1300px) {
     .nav_side_holder {
         width: 60%;
-    }   
+    }
+    
+    #nav_name {
+        flex: 0.8;
+        font-size: 37px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -812,7 +831,7 @@ button {
     }
     
     .card_img {
-        height: 160px;
+        height: 100%;
         width: 100%;
     }
     
@@ -882,18 +901,4 @@ button {
     .hide_mobile {
         display: none;
     }
-}
-.model_btn_icons {
-    height: 12px;
-    padding-right: 5px;
-}
-
-.model_btn_icons_down {
-    height: 12px;
-    transform: rotate(-90deg);
-}
-
-.bottom_nav_icon {
-    height: 18px;
-    padding-right: 10px;
 }
