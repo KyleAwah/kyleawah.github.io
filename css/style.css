@@ -575,7 +575,6 @@ a {
 
 .nav_bot_title {
     line-height: 1;
-    padding-bottom: 15px;
 }
 
 .project_holder {
@@ -765,7 +764,7 @@ a {
     }
     
     .nav_bot_0 {
-        height: 40vh;
+        height: 50vh;
     }
     
     .nav_bot_1 {
@@ -773,7 +772,7 @@ a {
     }
     
     .nav_bot_2 {
-        height: 30vh;
+        height: 35vh;
     }
     
     .nav_bot_3 {
@@ -839,4 +838,13 @@ button {
     color: grey;
     text-align: center;
     padding-top: 20px;
+}
+
+.top {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.close_image {
+    height: 24px;
 }
