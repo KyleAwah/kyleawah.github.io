@@ -889,6 +889,11 @@ button {
 }
 
 .model_btn_icons_down {
-    height: 10px;
+    height: 12px;
     transform: rotate(-90deg);
+}
+
+.bottom_nav_icon {
+    height: 18px;
+    padding-right: 10px;
 }
