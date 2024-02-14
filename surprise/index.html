@@ -2,56 +2,67 @@
 <html>
 
 	<head>
-		
 		<title> Cheering up my cutie ^_^ </title>
+		<style>
+			.open_present{
+			    cursor: pointer;
+			    outline: 0;
+			    display: inline-block;
+			    font-weight: 400;
+			    line-height: 1.5;
+			    text-align: center;
+			    background-color: transparent;
+			    border: 1px solid transparent;
+			    padding: 6px 12px;
+			    font-size: 1rem;
+			    border-radius: .25rem;
+			    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+			    color: #0d6efd;
+			    border-color: #0d6efd;
+			}
+			
+			.open_present:hover {
+			    color: #fff;
+			    background-color: #0d6efd;
+			    border-color: #0d6efd;
+			}
 
+			.hi{
+				text-align: center;
+				padding: 25px;
+				
+			}
+
+			.logo{
+				font-size: 40px;
+			}
+
+			.sub{
+				font-size: 15px;
+				color: grey;
+			}
+		</style>
 	</head>
 
-
-
-
-
 	<body>
-		
-		<h2> Kimmy's Sadness Killer Program 9000 </h2>
-
-			<script> 
-
-				document.write("i know its cliche at this point for me to make a dumb little program because i use them for everything but \n"); 
-				document.write('\n');
-
-				document.write("i hope this will help cheer you up if you're ever feeling down \n\n\n");
-				document.write('\n\n\n');
-
-			</script>
-
-		<br> <br>
-		<button onclick="Sad()"> Press Here If You Feel Sad </button>
-		<br> <br>
-
-		<button onclick="NoLove()"> Press Here If You Dont Feel Loved </button>
-		<br> <br>
-
-
-		<button onclick="Alone()"> Press Here If You Feel like You're Alone </button>
-		<br> <br>
-
-
-		<button onclick="Care()"> Press Here To Be Reminded of How Much i Care About You</button>
-		<br> <br>
-
-
-
-			<script>
-				document.write("i hope that this dumb little thing helps you to feel better if you ever feel sad");
-				document.write(" you mean the entire world to me kimberly and i hate to see you sad and i will always do whatever it takes to help you feel better again ~ Kyle");
-			</script>
-
-
-
+		<div class="hi">
+			<img src="corgi.gif" height="150" alt="para_clear"/>
+			<h2 class="logo"> Kimmy's Sadness Killer Program 9000! </h2>
+			<p class="sub"> i know its cliche at this point for me to make a dumb little program because i use them for everything but i hope this will help cheer you up if you're ever feeling down </p>
+				<br>
+				<button class="open_present" onclick="Sad()"> Press Here If You Feel Sad </button>
+				<br> <br>
+				<button class="open_present" onclick="NoLove()"> Press Here If You Dont Feel Loved </button>
+				<br> <br>
+				<button class="open_present" onclick="Alone()"> Press Here If You Feel like You're Alone </button>
+				<br> <br>
+				<button class="open_present" onclick="Care()"> Press Here To Be Reminded of How Much i Care About You</button>
+				<br> 
+				<p class="sub">i hope that this dumb little thing helps you to feel better if you ever feel sad you mean the entire world to me kimberly and i hate to see you sad and i will always do whatever it takes to help you feel better again</p>
+			<img src="2.jpg" height="40" alt="para_clear"/>
+		</div>
 
 		<script>
-
 			function Sad()
 			{
 				alert("being sad sucks and for me especially seeing you sad hurts the most");
@@ -60,10 +71,6 @@
 				alert("You're worth it and loved by so many people kimberly and even if you were or wern't, i will ALWAYS care about you");
 				alert("sometimes situations can be difficult and every day cant be a sunny one but just remember: \n\nRain is needed for Sunflowers like you to grow");
 			}
-
-
-
-
 			function NoLove()
 			{
 				alert("Kimberly, honestly so many people on this planet love and appreciate you, you are one of the kindest souls that i know");
@@ -72,9 +79,6 @@
 				alert("and i want you to know that not only are they appreciative of you but so are your family friends and me");
 				alert("I cant speak for everyone but only for myself, but truly i care about you so much so please dont ever feel like you are not loved and if you do you know i will always be right here to reassure you that you are cared for");
 			}
-
-
-
 			function Alone()
 			{
 				alert("I understand that some situations can be really difficult and at some moments can feel like you're fighting a loosing battle all by yourself but");
@@ -82,10 +86,6 @@
 				alert("I will always give you all the love, respect, space and anything you need to fight your fights or for you to heal because you mean the world to me");
 				alert("and even if you dont tell me about thoses situations just know that your close friends like Nikita will always be here for you through everything because they love and care about you alot");
 			}
-
-
-
-
 			function Care()
 			{
 				alert("i lowkey feel like the word care is an understatment when it comes to how i feel about you");
@@ -96,9 +96,6 @@
 				alert("and you're my favourite soul i've met and honestly you're such an amazing person inside and out");
 				alert("im so grateful that you exist and that we met and honestly i care about you so much");
 			}
-
-
-
 		</script>
 
 	</body>
