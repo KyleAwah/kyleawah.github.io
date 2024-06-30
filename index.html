@@ -1,3 +1,5 @@
+<!-- INSPIRATION BY: https://brittanychiang.com/ -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +23,7 @@
 
     <div class="wrapper">
         <!-- Loading Screen -->
-        <div class="loading_screen_holder">
+        <div class="loading_screen_holder ">
             <div class="loading_screen">
                 <div class="flex_1">
                     <div class="img_wrapper">
@@ -62,87 +64,53 @@
 
        
 
-        <!-- Sidebar Nav -->
-        <div id="nav_side_holder" class="nav_side_holder">
-            <div class="nav">
-                <div>
-                    
-                    
-                    <div class="nav_ctrl_list hide_mobile">
-                        <div class="nav_ctrl">
-                            <image class="ctrl_icons" src="images/leftclick.png"></image>
-                            <h2 class="ctrl_name">ROTATE</h2>
+        <!-- Main Screen -->
+        <div class="main_screen_holder  hidden">
+            <div class="project_holder">
+                <div class="flex_1">
+                    <!--LEFT CONTENT-->
+                    <div class="left_content glass">
+                        <div class="nav_name_holder">
+                            <h1 class="nav_name"> Kyle Awah </h1>
+                            <span class="nav_small_txt"> (BSc. Hons)</span>
                         </div>
-                        <div class="nav_ctrl">
-                            <image class="ctrl_icons" src="images/rightclick.png"></image>
-                            <h2 class="ctrl_name">PAN</h2>
+                        <p class="nav_para">
+                            Hey! i'm Kyle, a mobile & fullstack web developer from the little island of Trinidad 🇹🇹, in the Caribbean.
+                        </p>
+                        <div class="btn_holder">
+                            <a class="nav_btns resume_btn" href="resume/Kyle_Awah_Resume.pdf" download="Kyle_Awah_Resume.pdf">
+                                <image class="btn_icons" src="images/dl.png"></image>
+                                RESUME
+                            </a>
+                            <div class="nav_btns_2"></div>
+                            <div onclick="location.reload()" class="nav_btns restart_btn">
+                                <image class="btn_icons" src="images/restart.png"></image>
+                                RESTART
+                            </div>
                         </div>
-                        <div class="nav_ctrl">
-                            <image class="ctrl_icons" src="images/scroll.png"></image>
-                            <h2 class="ctrl_name">ZOOM</h2>
-                        </div>
-                    </div>
-                    <div class="nav_ctrl_list hide_desktop">
-                        <div class="nav_ctrl">
-                            <image class="ctrl_icons" src="images/mobile_swipe.png"></image>
-                            <h2 class="ctrl_name">ROTATE</h2>
-                        </div>
-                        <div class="nav_ctrl">
-                            <image class="ctrl_icons" src="images/mobile_pan.png"></image>
-                            <h2 class="ctrl_name">PAN</h2>
-                        </div>
-                        <div class="nav_ctrl">
-                            <image class="ctrl_icons" src="images/mobile_pinch.png"></image>
-                            <h2 class="ctrl_name">ZOOM</h2>
-                        </div>
-                    </div>
-                    <div>
-                        
-                        <image onclick="credit()" class="nav_icons credits_icon" src="images/credits.png"></image>
-                    </div>
-                    <div class="footer_para">
-                        Crafted with
-                        <span class="line_through">love ❤️</span> a keyboard ⌨️
-                        <br>
-                        2023
+                        <image onclick="window.open('https://github.com/kyleAwah/')" class="nav_icons" src="images/github.png"></image>
+                        <image onclick="window.open('https://www.linkedin.com/in/kyleawah/')" class="nav_icons" src="images/linkedin.png"></image>
+                        <a href="mailto:kyawah@gmail.com">
+                            <image class="nav_icons before_credits_icon" src="images/mail.png"></image>
+                        </a>
+                        <div>
+                            <div class="footer_para">
+                                Crafted with
+                                <span class="line_through">love ❤️</span> a keyboard ⌨️
+                                <br>
+                                2023
+                            </div>
+                        </div>                        
                     </div>
                 </div>
+
+                <div class="flex_1">
+                    <!--RIGHT CONTENT-->
+                </div>
+
             </div>
         </div>
-        <!-- Sidebar Nav -->
-        <div class="hidden">
-        <div class="nav_name_holder">
-            <h1 class="nav_name"> Kyle Awah </h1>
-            <span class="nav_small_txt"> (BSc. Hons)</span>
-        </div>
-        <p class="nav_para">
-            iOS & Fullstack Web Developer from Trinidad 🇹🇹 I am versed in over 15+ programming languages & frameworks.
-        </p>
-        <div class="btn_holder">
-            <a class="nav_btns resume_btn" href="resume/Kyle_Awah_Resume.pdf" download="Kyle_Awah_Resume.pdf">
-                <image class="btn_icons" src="images/dl.png"></image>
-                RESUME
-            </a>
-            <div class="nav_btns_2"></div>
-            <div onclick="location.reload()" class="nav_btns restart_btn">
-                <image class="btn_icons" src="images/restart.png"></image>
-                RESTART
-            </div>
-        </div>
-        <image onclick="window.open('https://github.com/kyleAwah/')" class="nav_icons" src="images/github.png"></image>
-        <image onclick="window.open('https://www.linkedin.com/in/kyleawah/')" class="nav_icons" src="images/linkedin.png"></image>
-        <a href="mailto:kyawah@gmail.com">
-            <image class="nav_icons before_credits_icon" src="images/mail.png"></image>
-        </a>
-        <div class="main_screen_holder">
-            <div class="footer_para">
-                Crafted with
-                <span class="line_through">love ❤️</span> a keyboard ⌨️
-                <br>
-                2023
-            </div>
-        </div>
-    </div>
+        <!-- Main Screen -->
     
         <!-- Maintainance Page -->
         <div class="main_screen_holder">
@@ -154,10 +122,10 @@
                         <p class="maintain_para">
                             Hey! Thanks for visiting my software developer portfolio.
                             <br><br>
-                            We're currently under maintenance, this should only take a few hours to resolve. If you would like, you can view my previous software developer portfolio during this time. Thank you kindly for your patience and understanding.
+                            We're currently under maintenance, this should only take a few hours to resolve. If you would like, you can view my linkedin profile during this time. Thank you kindly for your patience and understanding.
                         </p>
                         <br><br>
-                        <button onclick="window.open('https://kyleawah.github.io/old1')" class="nav_btns maintain_btn">
+                        <button onclick="window.open('https://linkedin.com/kyleawah')" class="nav_btns maintain_btn">
                             <image class="btn_icons" src="images/link.png"></image>
                             VIEW
                         </button>

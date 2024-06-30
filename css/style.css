@@ -166,6 +166,14 @@ model-viewer {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.glass{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
 .nav_bot {
     width: 70%;
     margin: 0 auto;
@@ -188,7 +196,7 @@ model-viewer {
 
 .nav_small_txt {
     font-size: 12px;
-    padding-top: 35px;
+    padding-top: 52px;
     padding-left: 12px;
 }
 
@@ -231,7 +239,6 @@ model-viewer {
 .nav_para {
     line-height: 1;
     padding-bottom: 20px;
-    padding-top: 10px;
 }
 
 
@@ -370,10 +377,6 @@ model-viewer {
 #nav_side_holder {
     display: none;
 }
-    
-#nav_bot_holder {
-    //display: none;
-}
 
 .line_through {
     text-decoration: line-through;
@@ -417,9 +420,6 @@ a {
 }
 
 .vert_center {
-    background-color: #e5e5e5;
-    padding: 30px;
-    height: 100vh;
     /* Center vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -459,7 +459,6 @@ a {
 }
 
 .nav_name_holder {
-    padding-top: 60px;
     display: flex;
 }
 
@@ -572,6 +571,11 @@ a {
     display: flex;
 }
 
+.left_content{
+    padding: 40px;
+    border-radius: 20px;
+}
+
 
 .nav_bot_title {
     line-height: 1;
@@ -601,7 +605,6 @@ a {
 .project_title_sub {
     line-height: 1;
     padding-bottom: 10px;
-    //color: grey;
 }
 
 .edu_title {
