@@ -50,7 +50,7 @@ model-viewer {
 
 .main_screen_holder {
     height: 100vh;
-    background-color: #b4d9ef;
+     background-color: #e5e5e5;
 }
 
 .small_txt {
@@ -447,6 +447,7 @@ a {
 
 .maintain_logo {
     font-size: 40px;
+    text-align: center;
 }
 
 .maintain_para {
