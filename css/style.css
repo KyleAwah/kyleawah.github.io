@@ -1078,6 +1078,15 @@ button {
 }
 
 @media only screen and (max-width: 1200px) {
+    .icon_holder {
+        font-size: 40px;
+        padding: 0px;
+    }
+
+    .rsmbtn{
+        width: 100%;
+    }
+
     .side_lbl{
         padding-left: 0px;
     }
@@ -1224,7 +1233,7 @@ button {
     }
 
     .padding_40{
-        padding-top: 40px;
+        padding-top: 8px;
         padding-left: 25px;
         padding-right: 25px;
     }

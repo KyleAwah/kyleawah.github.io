@@ -46,6 +46,9 @@ loading
         opacity: 0,
         display: "none"
     })
+    .from('.reload_holder', {
+        opacity: 0,
+    })
 
 
 var main_ani = gsap.timeline({
