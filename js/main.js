@@ -1,70 +1,3 @@
-var swiper1 = new Swiper('.swiper1', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    slidesPerGroup: 1,
-    loopFillGroupWithBlank: true,
-    freeMode: true,
-    speed: 900,
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-        reverseDirection: true,
-    },
-});
-
-var swiper2 = new Swiper('.swiper2', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    slidesPerGroup: 1,
-    loopFillGroupWithBlank: true,
-    freeMode: true,
-    speed: 900,
-    autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-        reverseDirection: true,
-    },
-    breakpoints: {
-        1100: {
-            slidesPerView: 3,
-            spaceBetween: 30
-        },
-        1300: {
-            slidesPerView: 4,
-            spaceBetween: 40
-        },
-    },
-});
-
-var swiper3 = new Swiper('.swiper3', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    slidesPerGroup: 1,
-    loopFillGroupWithBlank: true,
-    freeMode: true,
-    speed: 900,
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-        reverseDirection: true,
-    }
-});
-
-var swiper4 = new Swiper('.swiper4', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    slidesPerGroup: 1,
-    loopFillGroupWithBlank: true,
-    freeMode: true,
-    speed: 900,
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-        reverseDirection: true,
-    }
-});
-
-
 var loading = gsap.timeline({
     defaults: {
         duration: 0.7
@@ -113,11 +46,59 @@ loading
         opacity: 0,
         display: "none"
     })
-    .from('.vert_center', {
-        y: -40,
-        opacity: 0
-    })
-    .from('.reload_holder', {
-        y: -20,
-        opacity: 0
-    })
+
+
+var main_ani = gsap.timeline({
+    scrollTrigger: {
+        trigger: '#left_content',
+        start: "-100px top",
+        end: "11270px bottom",
+        markers: true,
+        scrub: true,
+        pin: true,
+        toggleActions: "restart pause reverse reverse"
+    }
+})
+
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+const titles = [
+    { title: "#title_1", index: "#index_1" },
+    { title: "#title_2", index: "#index_2" },
+    { title: "#title_3", index: "#index_3" },
+    { title: "#title_4", index: "#index_4" },
+    { title: "#title_5", index: "#index_5" },
+    { title: "#title_6", index: "#index_6" },
+    { title: "#title_7", index: "#index_7" },
+    { title: "#title_8", index: "#index_8" },
+];
+
+let activeIndex = null;
+
+titles.forEach(({ title, index }, i) => {
+    ScrollTrigger.create({
+        trigger: title,
+        start: "top 80%",
+        onEnter: () => setActiveIndex(i),
+        onEnterBack: () => setActiveIndex(i),
+        onLeave: () => resetActiveIndex(i),
+        onLeaveBack: () => resetActiveIndex(i)
+    });
+});
+
+function setActiveIndex(index) {
+    if (activeIndex !== null && activeIndex !== index) {
+        gsap.to(titles[activeIndex].index, { fontSize:"20px", fontWeight: "normal", duration: 0.2 });
+    }
+    activeIndex = index;
+    gsap.to(titles[activeIndex].index, { fontSize:"30px", fontWeight: "bold",  duration: 0.2 });
+}
+
+function resetActiveIndex(index) {
+    if (activeIndex === index) {
+        gsap.to(titles[activeIndex].index, { fontSize:"20px",fontWeight: "normal", duration: 0.2 });
+        activeIndex = null;
+    }
+}
