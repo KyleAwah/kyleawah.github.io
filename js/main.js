@@ -53,7 +53,7 @@ var main_ani = gsap.timeline({
         trigger: '#left_content',
         start: "-100px top",
         end: "11270px bottom",
-        markers: true,
+        //markers: true,
         scrub: true,
         pin: true,
         toggleActions: "restart pause reverse reverse"
