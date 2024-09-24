@@ -55,7 +55,7 @@ var main_ani = gsap.timeline({
     scrollTrigger: {
         trigger: '#left_content',
         start: "-100px top",
-        end: "11270px bottom",
+        end: "11890px bottom",
         //markers: true,
         scrub: true,
         pin: true,

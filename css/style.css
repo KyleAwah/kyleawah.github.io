@@ -815,7 +815,11 @@ a {
 }
 
 .job_desc{
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+.job_desc_2{
+    padding-left: 40px;
 }
 
 .desc_top{
@@ -1075,6 +1079,16 @@ button {
 
 #title_8{
     font-weight: bold;
+}
+
+#edu_1{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.center{
+    text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
