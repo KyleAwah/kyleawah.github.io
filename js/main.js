@@ -55,8 +55,8 @@ var main_ani = gsap.timeline({
     scrollTrigger: {
         trigger: '#left_content',
         start: "-100px top",
-        end: "11890px bottom",
-        //markers: true,
+        end: "12000px bottom",
+        // markers: true,
         scrub: true,
         pin: true,
         toggleActions: "restart pause reverse reverse"
