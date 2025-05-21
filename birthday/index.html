@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Happy Birthday Baba ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- W3CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Section 1: Video Background with Header -->
+    <section class="section-1">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="images/yay.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="birthday-header">
+            <h1>🎉 🎂 😍 🎂 🎉 <br> Happy Birthday Baba!!! </h1>
+        </div>
+    </section>
+
+    <!-- Section 2: Content with Slider -->
+    <section class="section-2">
+        <div class="birthday-content">
+            <p>Tankuuu for being the best baba ever, im sowwie i couldn't do more for your birthday and im sorry i couldn't be with you but here's a compilation of my favorite moments with you <br><br> I LOVE YOU FOREVER! ❤️ </p>
+            <!-- Swiper Slider -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/1.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/2.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/3.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/4.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/5.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/6.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/7.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/8.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/9.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/10.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/11.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/12.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/13.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/14.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/15.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/16.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/17.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/18.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/19.jpeg"></div>
+                    <div class="swiper-slide"><img src="images/20.jpeg"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper.js Script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
