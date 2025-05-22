@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Swiper.js CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--  Google Model Viewer -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 </head>
 
 <body>
     <!-- Section 1: Video Background with Header -->
     <section class="section-1">
         <div class="video-background">
-            <video autoplay muted loop>
+            <video autoplay muted loop playsinline>
                 <source src="images/yay.mov" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -30,7 +32,7 @@
     <!-- Section 2: Content with Slider -->
     <section class="section-2">
         <div class="birthday-content">
-            <p>Tankuuu for being the best baba ever, im sowwie i couldn't do more for your birthday and im sorry i couldn't be with you but here's a compilation of my favorite moments with you <br><br> I LOVE YOU FOREVER! ❤️ </p>
+            <p>Tankuuu for being the best baba ever, i'm sowwie i couldn't do more for your birthday and i'm sorry i couldn't be with you but here's a compilation of my favorite moments with you <br><br> I LOVE YOU FOREVER! ❤️ </p>
             <!-- Swiper Slider -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -61,6 +63,32 @@
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
+        </div>
+    </section>
+
+
+
+        <!-- Section 3: Content with Slider -->
+    <section class="section-2">
+        <div class="birthday-content">
+            <p><span style="font-size: smaller;">And ofc...</span><br>A birthday cake for my baba 🥰</p>
+             <model-viewer
+                src="images/birthday_cake.glb"
+                alt="A 3D model"
+                auto-rotate
+                camera-controls
+                camera-orbit="90deg 1m"
+                style="width: 400px; height: 400px;"
+            >
+            </model-viewer>
+        </div>
+    </section>
+
+
+
+     <section class="section-2">
+        <div class="birthday-content">
+            <p>I CAN'T WAIT TO SEE YOU THIS WEEKEND 😍</p>
         </div>
     </section>
 
