@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#141414" />
+    <title>Loveuuuflix</title>
+    <link rel="icon" href="images/Loveuuuflix-Logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <button id="brand" aria-label="Loveuuuflix home">
+        <img src="images/Loveuuuflix-Logo.png" alt="Loveuuuflix" />
+      </button>
+      <nav hidden>
+        <button data-tab="Home">Home</button>
+        <button data-tab="My List">My List</button>
+      </nav>
+      <button id="switch" aria-label="Switch profile" hidden></button>
+    </header>
+    <main id="picker">
+      <section class="chooser">
+        <h1>Who's watching?</h1>
+        <div id="profiles"></div>
+        <button id="manage" class="outline">Manage Profiles</button>
+      </section>
+    </main>
+    <main id="catalog" hidden>
+      <section id="hero">
+        <div class="feature">
+          <div class="original">
+            <b>L</b>
+            ORIGINAL
+          </div>
+          <h1>
+            Happie 
+            <br>
+            Anibubuwee 😍❤️‍🔥
+          </h1>
+          <p>A story about how i loveuu more than anything ever</p>
+          <div class="actions">
+            <button id="play">▶ &nbsp; Play</button>
+            <button id="info">ⓘ &nbsp; More Info</button>
+          </div>
+        </div>
+      </section>
+      <section id="shelves" aria-live="polite"></section>
+      <footer class="copyright">
+        <small>© 2026 Loveuuuflix. All <span>rights</span> lovies, foodie & naugties from bibi are reserved for kyky only.</small>
+      </footer>
+    </main>
+    <dialog id="modal">
+      <button class="close" aria-label="Close">×</button>
+      <div id="details"></div>
+    </dialog>
+    <dialog id="player" aria-label="Video player">
+      <video id="movie" playsinline preload="metadata"></video>
+      <div class="player-top">
+        <button id="back" aria-label="Back to memories">←</button>
+        <span id="now-playing"></span>
+      </div>
+      <p id="video-status" role="status"></p>
+      <div class="player-controls">
+        <div class="timeline">
+          <input
+            id="seek"
+            type="range"
+            min="0"
+            max="100"
+            step="0.1"
+            value="0"
+            aria-label="Seek"
+          />
+          <span id="remaining">0:00</span>
+        </div>
+        <div class="transport">
+          <button id="toggle" aria-label="Play">▶</button>
+          <button id="rewind" aria-label="Rewind 10 seconds">
+            ↶
+            <small>10</small>
+          </button>
+          <button id="forward" aria-label="Forward 10 seconds">
+            ↷
+            <small>10</small>
+          </button>
+          <button id="mute" aria-label="Mute">♪</button>
+          <input
+            id="volume"
+            aria-label="Volume"
+            type="range"
+            min="0"
+            max="1"
+            step=".05"
+            value="1"
+          />
+          <strong id="player-title"></strong>
+          <button id="next" aria-label="Next video">▸▸</button>
+          <select id="speed" aria-label="Playback speed">
+            <option value="0.5">0.5×</option>
+            <option value="1" selected>1×</option>
+            <option value="1.5">1.5×</option>
+            <option value="2">2×</option>
+          </select>
+          <button id="fullscreen" aria-label="Fullscreen">⛶</button>
+        </div>
+      </div>
+    </dialog>
+    <script src="art.js"></script>
+    <script src="app.js"></script>
+    <script src="player.js"></script>
+  </body>
+</html>
