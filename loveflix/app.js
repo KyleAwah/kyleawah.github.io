@@ -19,9 +19,10 @@ const memories = [
   ["Feeduuu", "Throughout their journey kyky and ebibi often eat together, many varying types of delicious foodie and restaurant experiences."],
 ];
 const videoPath = (i) => "videos/" + videoFiles[i];
-const art = memories.map((_, i) => postcard(i));
 const photos = new Map();
-const posters = new Map();
+// Static WebP covers load without requesting the original videos.
+const posterPath = (i) =>
+  "images/thumbnails/" + videoFiles[i].replace(/\.mov$/i, ".webp");
 function read(key, fallback) {
   try {
     return JSON.parse(localStorage.getItem(key)) ?? fallback;
@@ -51,7 +52,7 @@ const db = new Promise((resolve, reject) => {
   request.onerror = () => reject(request.error);
 });
 function cover(i) {
-  return photos.get(i) || posters.get(i) || art[i];
+  return photos.get(i) || posterPath(i);
 }
 function avatar(i) {
   return (
